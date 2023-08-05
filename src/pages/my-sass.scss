@@ -1,0 +1,23 @@
+$myColor: red;
+@mixin temp{
+    color: blue;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+@mixin muk($color,$font-size){
+color:$color;
+font-size:$font-size;
+}
+
+h1 {
+color: $myColor;
+@include temp;
+}
+p{
+    @extend h1;
+    @include muk(rgba(9, 10, 9, 0.788),arial);
+}
+h2{
+    @include muk(black,arial);
+}

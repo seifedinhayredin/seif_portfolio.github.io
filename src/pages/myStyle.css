@@ -1,0 +1,130 @@
+body {
+    background-color: #dddfe4;
+    color: white;
+    padding: 40px;
+    font-family: Sans-Serif;
+    text-align: center;
+  }
+  p {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  ul li {
+   padding: 10px;
+   float: left;
+    list-style: none;
+  }
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration:none;
+  }
+
+  li a:hover, .dropdown:hover.dropbtn {
+    background-color: red;
+  }
+  li.dropdown {
+    display: inline-block;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+ .lan{
+  color: black;
+  text-align: center;
+  display: block;
+ }
+ div table,th,td{
+  text-align: center;
+  border: 1px solid black;
+
+ }
+ div table th{
+  font-style: bold;
+  color: blue;
+ }
+ div table td{
+  color: black;
+ }
+ ol li{
+  color:black;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: bold;
+ }
+ ol{
+  list-style: none;
+ }
+ .myimg{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;  
+  animation-delay: 2ms;
+  animation-fill-mode: backwards;
+}
+
+@keyframes example {
+  from {top: 0px; background-color: yellow;}
+  to {top: 200px;}
+}
+.blog{
+  width: 1000px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;  
+  animation-delay: 2ms;
+  animation-fill-mode: backwards;
+  text-align: center;
+}
+
+@keyframes example {
+  from {top: 0px; background-color: chartreuse;}
+  to {top: 200px;}
+}
+.blog li{
+  color: black;
+  font-style: inherit;
+  padding: 4px 5px;
+}
+.tab{
+  width: 1000px;
+  height: 100px;
+ position: relative;
+  animation-name: example;
+  animation-duration: 10s;  
+  animation-delay: 2ms;
+  animation-fill-mode: backwards;
+  text-align: center;
+}
+
+@keyframes example {
+  from {top: 0px; background-color: chartreuse;}
+  to {top: 200px;}
+}
+footer {
+  border: #f1f1f1;
+  padding: 10px 10px;
+  color: red;
+}
