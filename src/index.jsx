@@ -14,12 +14,12 @@ function Rou() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}>
+          <Route exact path="/" element={<Layout />}>
             <Route index element={<Home />} />
-            <Route path="blog" element={<Blog />} />
-            <Route path="contact" element={<Contact />} />
-            <Route path="about" element={<About />} />
-            <Route path="comp1" element={<Comp1 />} />
+            <Route exact path="blog" element={<Blog />} />
+            <Route exact path="contact" element={<Contact />} />
+            <Route exact path="about" element={<About />} />
+            <Route exact path="comp1" element={<Comp1 />} />
             <Route path="*" element={<NoPage />} />
           </Route>
         </Routes>
