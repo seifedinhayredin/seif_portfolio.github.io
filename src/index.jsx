@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
 import Blog from "./pages/Blog";
 import Home from "./pages/Home";
 import Layout from "./pages/Layout";
@@ -9,7 +9,7 @@ import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Comp1 from "./pages/Comp1";
 
-function Index() {
+function Rou() {
   return (
     <HashRouter>
       <Routes>
@@ -27,5 +27,4 @@ function Index() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("seif"));
-root.render(<Index />);
-export default Index;
+root.render(<Rou />);

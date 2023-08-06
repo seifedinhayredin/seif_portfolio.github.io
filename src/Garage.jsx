@@ -18,4 +18,6 @@ function Garage() {
     </>
   );*/
 }
+const root = ReactDOM.createRoot(document.getElementById("seif"));
+root.render(<Garage />);
 export default Garage;
