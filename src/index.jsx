@@ -9,7 +9,7 @@ import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Comp1 from "./pages/Comp1";
 
-function App() {
+function Rou() {
   return (
     <HashRouter>
       <Routes>
@@ -26,4 +26,5 @@ function App() {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("seif"));
+const root = ReactDOM.createRoot(document.getElementById("seif"));
+root.render(<Rou />);
