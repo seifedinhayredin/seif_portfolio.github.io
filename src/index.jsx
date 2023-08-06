@@ -11,18 +11,21 @@ import Comp1 from "./pages/Comp1";
 
 function Rou() {
   return (
-    <HashRouter>
-      <Routes>
-        <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="blog" element={<Blog />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="about" element={<About />} />
-          <Route path="comp1" element={<Comp1 />} />
-          <Route path="*" element={<NoPage />} />
-        </Route>
-      </Routes>
-    </HashRouter>
+    <>
+      <h1>It is index.js</h1>
+      <HashRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="blog" element={<Blog />} />
+            <Route path="contact" element={<Contact />} />
+            <Route path="about" element={<About />} />
+            <Route path="comp1" element={<Comp1 />} />
+            <Route path="*" element={<NoPage />} />
+          </Route>
+        </Routes>
+      </HashRouter>
+    </>
   );
 }
 
