@@ -1,6 +1,6 @@
 import { useState } from "react";
 import "./myStyle.css";
-function About() {
+function Abb() {
   const [mine, setMine] = useState({
     name: "Seifedin Hayredin",
     dept: "computer science",
@@ -80,4 +80,4 @@ function About() {
     </>
   );
 }
-export default About;
+export default Abb;
