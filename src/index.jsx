@@ -9,7 +9,7 @@ import NoPage from "./pages/NoPage";
 import About from "./pages/About";
 import Comp1 from "./pages/Comp1";
 
-function Rou() {
+function index() {
   return (
     <HashRouter>
       <Routes>
@@ -28,3 +28,4 @@ function Rou() {
 
 const root = ReactDOM.createRoot(document.getElementById("seif"));
 root.render(<Rou />);
+export default index;
