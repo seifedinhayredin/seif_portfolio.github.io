@@ -25,5 +25,12 @@
     "gh-pages": "^5.0.0",
     "react-router-dom": "^6.14.2",
     "vite": "^4.1.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env",
+      "@babel/preset-react"
+    ],
+    "plugins": []
   }
 }
